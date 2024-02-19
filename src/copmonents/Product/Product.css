@@ -1,0 +1,48 @@
+.product-img{
+    position: relative;
+}
+
+.product-actions{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    gap: 16px;
+}
+
+.heartbtn{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+    z-index: 999;
+}
+
+.heartbtn:hover{
+    transform: scale(1.1);
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product h3{
+    font-family: "Jost";
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.product p{
+    font-family: 'Jost';
+    font-size: 18px;
+    color: gray;
+    
+}

@@ -1,0 +1,9 @@
+.categorycard{
+    position: relative;
+}
+
+.catbtn{
+    position: absolute;
+    bottom: 45px;
+    left: 150px;
+}

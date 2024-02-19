@@ -1,0 +1,49 @@
+
+
+header{
+    padding: 20px 0px;
+    background-color: #F1F1F0;
+}
+
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    color: black;
+    font-family: 'Jost';
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: color .2s;
+    font-size: 14px;
+}
+
+.link:hover{
+    color: grey;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-icons button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.nav-icons button:active{
+    transform: scale(1.2);
+}
+

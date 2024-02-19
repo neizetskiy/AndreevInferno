@@ -1,0 +1,8 @@
+.sort select{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Jost";
+    font-weight: bold;
+    font-size: 16px;
+}

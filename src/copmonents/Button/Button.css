@@ -1,0 +1,13 @@
+.button{
+    font-family: "Jost";
+    transition: 0.2s;
+    padding: 7px 24px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    text-decoration: underline;
+}

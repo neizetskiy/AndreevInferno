@@ -1,0 +1,40 @@
+.search{
+    width: 200px;
+    padding: 4px 10px;
+    font-family: 'Jost';
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid #b3b3af;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.searchform{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.searchresults{
+    position: absolute;
+    top: 40px;
+    z-index: 999;
+    left: 10px;
+    background-color: #F1F1F0;
+    width: 300px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.searchlink{
+    color: black;
+}

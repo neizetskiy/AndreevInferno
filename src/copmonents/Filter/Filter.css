@@ -1,0 +1,67 @@
+.filter{
+    width: 295px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.filter-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-category{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter-cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.filter-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.filter-price{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.filter-content input{
+    width: 240px;
+}
+
+.filter-size{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}

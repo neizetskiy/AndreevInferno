@@ -1,0 +1,12 @@
+.sizebutton{
+    font-size: 16px;
+    background-color: #F0F0F0;
+    width: 56px;
+    height: 56px;
+    color: rgb(103, 103, 103);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Marcellus';
+    cursor: pointer;
+}

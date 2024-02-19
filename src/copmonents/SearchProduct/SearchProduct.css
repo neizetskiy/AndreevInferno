@@ -1,0 +1,19 @@
+.searchproduct{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchimg{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.searchproduct-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: "Jost";
+    text-transform: uppercase;
+}
